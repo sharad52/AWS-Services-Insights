@@ -1,0 +1,4 @@
+Serverless compute service that runs code in response to events.
+
+Use Case:
+    Event-driven applications, microservices, automated tasks, API Backends

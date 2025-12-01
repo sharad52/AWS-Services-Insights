@@ -1,0 +1,9 @@
+AWS S3 -> Simple Storage Service
+    Object storage service for storing and retrieving any amount of data.
+Use Cases:
+    File uploads, data lakes, static website hosting, backups.
+
+To use S3 effectively at scale, you must understand it is 'not a filesystem;' it is a 'distributed key-value store with eventual consistency' (historically) turned strong consistency.
+    - Strong Consistency:
+        Since Dec 2020, S3 is strongly consistent for all PUTs and DELETEs. You can write an object immediately read it or list it.
+            Gotcha: This applies to the object level. Bucket configurations (ACLs, Policy changes) are still eventually consistent.

@@ -1,0 +1,3 @@
+Fully Managed NoSQL database service
+Use Case:
+    Fast, scalable database for web/mobile apps, session storage, real-time analytics.

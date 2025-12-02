@@ -1,0 +1,5 @@
+Fully managed message queuing service for decoupling microservices.
+Why need it:
+    Asynchronous processing, job queues, distributed systems, buffering requests.
+
+    
